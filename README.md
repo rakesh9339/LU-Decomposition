@@ -8,10 +8,19 @@ To write a program to find the LU Decomposition of a matrix.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Read the elements of augmented matrix into arrays
-2. Calculate elements of L and U
-3. Print elements of L and U
-4. Find V by solving LV = B by forward substitution
+1. Import numpy library using import statement
+
+2. From scipy package import lu_factor() and lu_solve().
+
+3. Get two inputs from user and pass it as matrix array.
+
+4. Find lu and pivot value of first marix using lu_factor().
+
+5. Find solution of the matrix by using lu_solve() by passing lu, pivot values as first argument and second matrix as second argument.
+
+6. Print the solution.
+
+
 
 ## Program:
 (i) To find the L and U matrix
@@ -45,7 +54,8 @@ print(X)
 ```
 
 ## Output:
-
+![](5.png)
+![](6.png)
 
 
 ## Result:
