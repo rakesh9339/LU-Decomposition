@@ -45,7 +45,7 @@ print(X)
 ```
 
 ## Output:
-![lu dec
+
 
 
 ## Result:
